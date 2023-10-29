@@ -39,7 +39,7 @@ export const Chart = ({ company }: { company: string }) => {
     datasets: [
       {
         label: "Stock Evolution",
-        data: data.dataset_data.data.map((item: any) => item[1]),
+        data: data.dataset_data.data.map((item: any) => item[4]),
         fill: false,
         borderColor: "green",
         backgroundColor: "green",
